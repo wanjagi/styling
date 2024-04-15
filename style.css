@@ -1,0 +1,75 @@
+
+/*Div properties*/
+/*Background properties*/
+.example-div {
+    background-color: #f0f0f0;
+    background-image: url('example.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-blend-mode: multiply;
+}
+/*Box model properties*/
+.example-div {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/*positioning properties*/
+.example-div {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+    float: left;
+    clear: both;
+}
+/*Typography properties*/
+.example-div {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #333;
+}
+/*Display properties*/
+.example-div {
+    display: block;
+    visibility: visible;
+    overflow: auto;
+}
+/*Flex box properties*/
+.example-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/*grid properties properties*/
+.example-div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+/*other properties*/
+.example-div {
+    cursor: pointer;
+    opacity: 0.8;
+    filter: grayscale(50%);
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+    animation: pulse 1s infinite alternate;
+}
